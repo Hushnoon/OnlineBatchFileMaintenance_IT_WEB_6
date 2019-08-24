@@ -6,7 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
 
 @Entity
-public class BMSDetail {
+public class BmsDetail {
 
 	private int bmsEntryCode;
 	private Date entryDate;

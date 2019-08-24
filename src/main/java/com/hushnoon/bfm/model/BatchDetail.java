@@ -22,15 +22,15 @@ public class BatchDetail {
 	private Date startDate;
 	private Date endDate;
 	
-	public Set<BMSDetail> getBmsDetails() {
+	public Set<BmsDetail> getBmsDetails() {
 		return bmsDetails;
 	}
-	public void setBmsDetails(Set<BMSDetail> bmsDetails) {
+	public void setBmsDetails(Set<BmsDetail> bmsDetails) {
 		this.bmsDetails = bmsDetails;
 	}
 	@OneToMany
     @JoinColumn(name="batchCode")
-    private Set<BMSDetail> bmsDetails;
+    private Set<BmsDetail> bmsDetails;
 	
 	
 	public int getBatchCode() {
